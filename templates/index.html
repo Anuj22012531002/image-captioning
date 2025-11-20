@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image & Video Captioning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Image & Video Captioning System</h1>
+        <p>Upload any image or video and get an automatically generated caption.</p>
+    </header>
+
+    <section class="upload-box">
+        <h2>Upload File</h2>
+        <input type="file" id="fileInput" accept="image/*,video/*">
+        <button onclick="uploadFile()">Generate Caption</button>
+        <p id="msg"></p>
+    </section>
+
+    <section id="output" class="output hidden">
+        <h2>Caption Result</h2>
+        <p id="captionText"></p>
+        <img id="previewImage" class="hidden" />
+        <video id="previewVideo" class="hidden" controls></video>
+    </section>
+
+    <footer>
+        <p>© 2025 Image & Video Captioning Project | Designed by Anuj</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
