@@ -1,0 +1,10 @@
+flask
+opencv-python
+numpy
+torch
+transformers
+sentencepiece
+accelerate
+Pillow
+flask
+gunicorn
